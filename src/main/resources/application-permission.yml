@@ -1,0 +1,18 @@
+# 权限相关
+aihei:
+  authority:
+    user: 1
+    goodsSeller: 2
+    admin: 3
+  # 无需鉴权的接口
+  nonFilterPath:
+    - /user/login
+    - /user/register
+    - /user/refreshToken
+  #需要jwt（user角色）才能访问
+  jwtFilterPath:
+    - /api/**
+  # token过期时间
+  accessTokenExpiration: '86400000' #一天
+  refreshTokenExpiration: '2592000000' #30天
+
