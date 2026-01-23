@@ -4,34 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b6885e8-f3d7-4687-b7fd-698caaa20b76" name="Changes" comment="pro">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lua/decrGoodNum.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/59150fa8-7108-47ff-be28-4acd70223baa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/59150fa8-7108-47ff-be28-4acd70223baa.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe/技术架构：SpringBoot+SpringMVC+SpringSecurity+Mybatis-plus+Redis+RabbitMQ.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/技术架构：SpringBoot+SpringMVC+SpringSecurity+Mybatis-plus+Redis+RabbitMQ.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/RabbitMQ/MQReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/RabbitMQ/MQReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/RabbitMQ/MQSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/RabbitMQ/MQSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/ScheduledTask/ScheduledTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/ScheduledTask/ScheduledTasks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/Service/IUsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/Service/IUsersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/Service/impl/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/Service/impl/UsersServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/comfig/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/comfig/RabbitMQConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/controller/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/domain/cmd/AddProductsCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/domain/cmd/AddProductsCmd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/domain/cmd/UserRegisterCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/domain/cmd/UserRegisterCmd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/filiter/JwtAuthenticationTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/filiter/JwtAuthenticationTokenFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/interceptor/IdLimitInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/interceptor/IdLimitInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/mapper/FlashSalesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/mapper/FlashSalesMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/flashsale/RabbitMQ/MQReceiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learn/flashsale/RabbitMQ/MQReceiver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/flashsale/Service/impl/UsersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learn/flashsale/Service/impl/UsersServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/flashsale/domain/cmd/AddProductsCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learn/flashsale/domain/cmd/AddProductsCmd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/flashsale/filiter/JwtAuthenticationTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learn/flashsale/filiter/JwtAuthenticationTokenFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/flashsale/interceptor/IdLimitInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learn/flashsale/interceptor/IdLimitInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testResource/登陆-HTTP请求.jmx" beforeDir="false" afterPath="$PROJECT_DIR$/testResource/登陆-HTTP请求.jmx" afterDir="false" />
+    <list default="true" id="1b6885e8-f3d7-4687-b7fd-698caaa20b76" name="Changes" comment="新增两个不同的秒杀方案，mysql锁和队列，详见readme。">
+      <change beforePath="$PROJECT_DIR$/ReadMe/技术方案.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/技术方案.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721127269742</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="新增两个不同的秒杀方案，mysql锁和队列，详见readme。">
+      <option name="closed" value="true" />
+      <created>1769167232671</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1769167232671</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +273,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pro" />
-    <option name="LAST_COMMIT_MESSAGE" value="pro" />
+    <MESSAGE value="新增两个不同的秒杀方案，mysql锁和队列，详见readme。" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增两个不同的秒杀方案，mysql锁和队列，详见readme。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
