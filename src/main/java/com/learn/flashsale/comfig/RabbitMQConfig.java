@@ -26,21 +26,20 @@ public class RabbitMQConfig {
     }
 
 
+    @Bean
+    public Queue queue2() {
+        return new Queue("queue2");
+    }
 
-//    @Bean
-//    public Queue queue2() {
-//        return new Queue("queue2");
-//    }
-//    // 定义交换机
-//    @Bean
-//    public FanoutExchange exchange2() {
-//        return new FanoutExchange("exchange2");
-//    }
-//    //使用@Qualifier确保交换机的正确绑定
-//    @Bean
-//    public Binding binding1(@Qualifier("queue2") Queue exampleQueue, @Qualifier("exchange2") FanoutExchange fanoutExchange) {
-//        return BindingBuilder.bind(exampleQueue).to(fanoutExchange);
-//    }
+    @Bean
+    public FanoutExchange exchange2() {
+        return new FanoutExchange("exchange2");
+    }
+
+    @Bean
+    public Binding binding2(@Qualifier("queue2") Queue queue2, @Qualifier("exchange2") FanoutExchange exchange2) {
+        return BindingBuilder.bind(queue2).to(exchange2);
+    }
 
 
 

@@ -22,7 +22,6 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.List;
 import java.util.Objects;
 
 /**
@@ -70,7 +69,9 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
         try {
             claims = JwtUtil.parseJWT(accessToken);
         } catch (Exception e) {
+            System.out.println("jwt验证失败");
             throw new BizException(ErrorCode.TOKEN_PARSE_ERROR);
+
         }
         userId = claims.getSubject();
         //从redis获取用户信息

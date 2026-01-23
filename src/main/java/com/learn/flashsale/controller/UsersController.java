@@ -66,10 +66,21 @@ public class UsersController {
 
     @PreAuthorize("hasAuthority('rob')")
    @PostMapping("/rob")
-    public Response rob(@RequestParam Integer FlashSaleId)
-    {
+    public Response rob(@RequestParam Integer FlashSaleId) {
         return usersService.rob(FlashSaleId);
     }
+    //robWithMysqlLock
+    @PreAuthorize("hasAuthority('rob')")
+    @PostMapping("/robWithMysqlLock")
+    public Response robWithMysqlLock(@RequestParam Integer FlashSaleId) {
+        return usersService.robWithMysqlLock(FlashSaleId);
+    }
+    @PreAuthorize("hasAuthority('rob')")
+    @PostMapping("/robBaseOnQueue")
+    public Response robBaseOnQueue(@RequestParam Integer FlashSaleId) {
+        return usersService.robBaseOnQueue(FlashSaleId);
+    }
+
     @PreAuthorize("hasAuthority('rob')")
     @GetMapping("/getRobResult")
     public Response getRobResult(@RequestParam Integer FlashSaleId)

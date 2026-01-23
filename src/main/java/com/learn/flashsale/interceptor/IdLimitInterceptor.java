@@ -22,6 +22,7 @@ public class IdLimitInterceptor implements HandlerInterceptor {
     @Autowired
     StringRedisTemplate redisTemplate;
 
+
     private DefaultRedisScript<Long> getRedisScript;
 
 

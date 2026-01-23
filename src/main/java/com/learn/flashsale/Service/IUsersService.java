@@ -31,6 +31,8 @@ public interface IUsersService extends IService<User> {
     Response getFlashSaleInfo(Integer flashSaleId);
 
     Response rob(Integer flashSaleId);
+    Response robWithMysqlLock(Integer flashSaleId);
+    Response robBaseOnQueue(Integer flashSaleId);
 
     Response getRobResult(Integer flashSaleId);
 

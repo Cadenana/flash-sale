@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
 
 @Component
 public class ScheduledTasks {
-
+//多个定时任务或将定时任务改为同步所有的秒杀商品库存
     private ScheduledExecutorService scheduler;
     private ScheduledFuture<?> scheduledFuture;
     private FlashSales flashSale;

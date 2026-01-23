@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b6885e8-f3d7-4687-b7fd-698caaa20b76" name="Changes" comment="pro" />
+    <list default="true" id="1b6885e8-f3d7-4687-b7fd-698caaa20b76" name="Changes" comment="pro">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lua/decrGoodNum.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/59150fa8-7108-47ff-be28-4acd70223baa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/59150fa8-7108-47ff-be28-4acd70223baa.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe/技术架构：SpringBoot+SpringMVC+SpringSecurity+Mybatis-plus+Redis+RabbitMQ.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/技术架构：SpringBoot+SpringMVC+SpringSecurity+Mybatis-plus+Redis+RabbitMQ.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/RabbitMQ/MQReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/RabbitMQ/MQReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/RabbitMQ/MQSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/RabbitMQ/MQSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/ScheduledTask/ScheduledTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/ScheduledTask/ScheduledTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/Service/IUsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/Service/IUsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/Service/impl/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/Service/impl/UsersServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/comfig/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/comfig/RabbitMQConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/domain/cmd/AddProductsCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/domain/cmd/AddProductsCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/domain/cmd/UserRegisterCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/domain/cmd/UserRegisterCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/filiter/JwtAuthenticationTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/filiter/JwtAuthenticationTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/interceptor/IdLimitInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/interceptor/IdLimitInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/mapper/FlashSalesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/flashsale/mapper/FlashSalesMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/flashsale/RabbitMQ/MQReceiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learn/flashsale/RabbitMQ/MQReceiver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/flashsale/Service/impl/UsersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learn/flashsale/Service/impl/UsersServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/flashsale/domain/cmd/AddProductsCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learn/flashsale/domain/cmd/AddProductsCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/flashsale/filiter/JwtAuthenticationTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learn/flashsale/filiter/JwtAuthenticationTokenFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/flashsale/interceptor/IdLimitInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learn/flashsale/interceptor/IdLimitInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testResource/登陆-HTTP请求.jmx" beforeDir="false" afterPath="$PROJECT_DIR$/testResource/登陆-HTTP请求.jmx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,14 +55,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Cadenana&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Cadenana/flash-sale.git&quot;,
+    &quot;accountId&quot;: &quot;009498e5-be99-44bc-a078-7d81df716d55&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../develop-tool/maven/apache-maven-3.6.1" />
-        <option name="useMavenConfig" value="true" />
+        <option name="customMavenHome" value="$PROJECT_DIR$/../../develop-tool/maven/apache-maven-3.6.1" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
         <option name="userSettingsFile" value="D:\develop-tool\maven\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -42,21 +82,29 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2igSsJM2HFLBqoLfecASYVig5Yp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.FlashSaleApplication.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.FlashSaleApplication.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/code/flash-sale",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -66,7 +114,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.2109375",
     "project.structure.side.proportion": "0.25583863",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "12d5b621fc004389af557ff7188b7061",
     "vue.rearranger.settings.migration": "true"
   },
@@ -81,11 +129,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\flash-sale\ReadMe" />
       <recent name="D:\code\flash-sale\src\testResource" />
       <recent name="D:\code\flash-sale\src\main\resources" />
       <recent name="D:\code\flash-sale\src\main\resources\mapper" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\flash-sale\ReadMe" />
       <recent name="D:\code\flash-sale" />
       <recent name="D:\code\flash-sale\src\sql" />
       <recent name="D:\code\flash-sale\src\main\resources\lua" />
@@ -94,7 +144,20 @@
       <recent name="com.learn.flashsale.propoties" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FlashSaleApplication">
+    <configuration name="FlashSaleApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.flashsale.FlashSaleApplication" />
+      <module name="flash-sale" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.flashsale.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FlashSaleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="flash-sale" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.flashsale.FlashSaleApplication" />
@@ -102,6 +165,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FlashSaleApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -133,7 +208,41 @@
       <workItem from="1721125454468" duration="186000" />
       <workItem from="1721125669314" duration="215000" />
       <workItem from="1721126136521" duration="67000" />
-      <workItem from="1721126214057" duration="855000" />
+      <workItem from="1721126214057" duration="1060000" />
+      <workItem from="1721207778760" duration="654000" />
+      <workItem from="1721211139605" duration="130000" />
+      <workItem from="1721211278258" duration="175000" />
+      <workItem from="1721211461701" duration="80000" />
+      <workItem from="1721211549482" duration="34000" />
+      <workItem from="1721211799961" duration="33000" />
+      <workItem from="1721211840137" duration="357000" />
+      <workItem from="1721289137115" duration="3455000" />
+      <workItem from="1721981394001" duration="1341000" />
+      <workItem from="1722004919548" duration="682000" />
+      <workItem from="1722152614359" duration="598000" />
+      <workItem from="1723982845300" duration="1593000" />
+      <workItem from="1724055634627" duration="1457000" />
+      <workItem from="1724387410707" duration="4318000" />
+      <workItem from="1725012360105" duration="364000" />
+      <workItem from="1727310134602" duration="4977000" />
+      <workItem from="1727331191605" duration="18000" />
+      <workItem from="1727657927807" duration="713000" />
+      <workItem from="1727834715957" duration="3602000" />
+      <workItem from="1727926949477" duration="73000" />
+      <workItem from="1727937981793" duration="713000" />
+      <workItem from="1728224490316" duration="792000" />
+      <workItem from="1730009929051" duration="2018000" />
+      <workItem from="1730181717341" duration="2797000" />
+      <workItem from="1730185405674" duration="723000" />
+      <workItem from="1730289416884" duration="20000" />
+      <workItem from="1730979568725" duration="1516000" />
+      <workItem from="1731048128551" duration="8067000" />
+      <workItem from="1731065749100" duration="108000" />
+      <workItem from="1731134987744" duration="7761000" />
+      <workItem from="1732539473882" duration="1348000" />
+      <workItem from="1732687629647" duration="629000" />
+      <workItem from="1733467897726" duration="898000" />
+      <workItem from="1734338117798" duration="1138000" />
     </task>
     <task id="LOCAL-00001" summary="pro">
       <created>1721126962655</created>
@@ -149,7 +258,21 @@
       <option name="project" value="LOCAL" />
       <updated>1721127069445</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pro">
+      <created>1721127181493</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721127181493</updated>
+    </task>
+    <task id="LOCAL-00004" summary="pro">
+      <created>1721127269742</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721127269742</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,5 +292,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pro" />
     <option name="LAST_COMMIT_MESSAGE" value="pro" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
