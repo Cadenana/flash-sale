@@ -37,10 +37,6 @@ public class MQReceiver {
     @RabbitListener(queues = "queue1")
     public void listenSimpleQueue(String str) {
         //接收到消息，消息为秒杀活动，预检库存创建订单
-//        byte[] body = message.getBody();
-//        String s = new String(body);
-//        System.out.println(s);
-//        String[] split = s.split(",");
 
         userIdFlashIdCmd userIdFlashIdCmd = JSON.parseObject(str, userIdFlashIdCmd.class);
         Integer flashSaleId = userIdFlashIdCmd.getFlashSaleId();

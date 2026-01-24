@@ -24,22 +24,19 @@ public class UsersController {
     IUsersService usersService;
 
 @PostMapping("/register")
-    public Response register(@RequestBody UserRegisterCmd userRegisterCmd)
-{
+    public Response register(@RequestBody UserRegisterCmd userRegisterCmd) {
     return usersService.register(userRegisterCmd);
 }
 
 @PostMapping("/login")
-    public Response login(@NotNull @RequestParam String phone,@NotNull @RequestParam String password)
-{
+    public Response login(@NotNull @RequestParam String phone,@NotNull @RequestParam String password) {
     return usersService.login(phone,password);
 }
 
 
     @PreAuthorize("hasAuthority('book')")
 @PostMapping("/book")
-    public Response book(@RequestParam Integer productId,@RequestParam Integer quantity)
-    {
+    public Response book(@RequestParam Integer productId,@RequestParam Integer quantity) {
         return usersService.book(productId,quantity);
     }
     @PreAuthorize("hasRole('user')")
@@ -51,16 +48,14 @@ public class UsersController {
 
     @PreAuthorize("hasRole('business')")
     @PostMapping("/addFlashSale")
-    public Response addFlashSale(@RequestBody AddFlashSaleCmd addFlashSaleCmd)
-    {
+    public Response addFlashSale(@RequestBody AddFlashSaleCmd addFlashSaleCmd) {
         return usersService.addFlashSale(addFlashSaleCmd);
     }
 
 
 @PreAuthorize("hasAuthority('rob')")
     @GetMapping("/getFlashSaleInfo")
-    public Response getFlashSaleInfo(@RequestParam Integer FlashSaleId)
-{
+    public Response getFlashSaleInfo(@RequestParam Integer FlashSaleId) {
     return usersService.getFlashSaleInfo(FlashSaleId);
 }
 
